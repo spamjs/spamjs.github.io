@@ -67,7 +67,7 @@ module.exports = function (grunt) {
         resourcesFile: "resource.json",
         livereloadUrl: "http://localhost:8081/livereload.js",
         bootServer: {
-          port: 8085
+          port: 80
         }
       }
     },
