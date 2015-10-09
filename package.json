@@ -31,8 +31,7 @@
   },
 
   "scripts": {
-    "install": "bower update",
-    "postinstall0": "grunt start-cdn-server"
+    "install": "bower update"
   },
 
   "jsbeautifier": {
