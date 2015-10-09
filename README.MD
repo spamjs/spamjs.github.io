@@ -1,7 +1,7 @@
 /************************
   Installation steps
 ************************/
-1. Clone project from https://bitbucket.org/unicommercetechnology/unicommercechat
+1. Clone project
 2. instal node module : npm install
 3. npm update
 4. install bower dependencies : bower install
