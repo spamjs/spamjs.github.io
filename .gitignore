@@ -1,0 +1,70 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.pyc
+*.so
+*.pdb
+*.suo
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Eclipse or Other IDEs #
+###########
+.metadata
+.settings
+.project
+.classpath
+.springBeans
+.DS_Store
+.sass-cache
+.idea
+
+# Folders #
+###########
+.gradle
+.idea
+bin
+build
+target
+test-output
+Servers
+obj
+work
+libs
+bower_components
+
+# bootloader project
+#####################
+node_modules
+dist
+src/external
+cache
+
+
+# minification files #
+######################
+*min.css
+*-min.js
+
+# Other Files #
+###############
+log.roo
+src/main/resources/debug.properties
+sonar-project.properties
+unicommercechat.iml
+*~

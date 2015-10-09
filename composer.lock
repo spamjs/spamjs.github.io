@@ -1,0 +1,1268 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "06af4df14fe80b587ba919a00b352cc6",
+    "packages": [
+        {
+            "name": "jqgeeks/jqtag",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqgeeks/jqtag.git",
+                "reference": "67f9bba3aee0f6b32219b42f7ad3b8653b3a1c1c"
+            },
+            "require": {
+                "jqgeeks/utils": ">=1.1.3",
+                "pitana/pitana.js": "dev-master",
+                "webmodules/webcomponentsjs": ">=0.5.2"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A tag library to comply with jqgeeks/utils",
+            "keywords": [
+                "polymers",
+                "x-tags"
+            ],
+            "time": "2015-06-12 14:50:43"
+        },
+        {
+            "name": "jqgeeks/tunnel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqgeeks/tunnel.git",
+                "reference": "fe38ca5f93693ec13783a62e71996368cd5743b8"
+            },
+            "require": {
+                "jqgeeks/utils": ">=1.0.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "JQuery Utilitties compatible with rudrax framework",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-05-08 15:40:45"
+        },
+        {
+            "name": "jqgeeks/utils",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqgeeks/utils.git",
+                "reference": "ddaad09dd9d5bf30d79fad3040cc1df7f427f6ba"
+            },
+            "require": {
+                "webmodules/foo": ">=0.0.8",
+                "webmodules/jquery": ">=1.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "JQuery Utilitties compatible with rudrax framework",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-07-22 18:36:30"
+        },
+        {
+            "name": "jqmodules/bootstrap-select",
+            "version": "1.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jqmodules/bootstrap-select.git",
+                "reference": "da9a3578cace5362496eb5b579648e41081de79b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jqmodules/bootstrap-select/zipball/da9a3578cace5362496eb5b579648e41081de79b",
+                "reference": "da9a3578cace5362496eb5b579648e41081de79b",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/bootstrap": ">=3.0.0",
+                "webmodules/jquery": ">=1.8"
+            },
+            "suggest": {
+                "components/jquery": ">=1.8",
+                "twbs/bootstrap": "~3.0.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Silvio Moreto",
+                    "homepage": "https://github.com/silviomoreto"
+                }
+            ],
+            "description": "A custom <select> for Bootstrap using button dropdown as replacement",
+            "homepage": "http://silviomoreto.github.io/bootstrap-select",
+            "keywords": [
+                "bootstrap",
+                "form",
+                "replacement",
+                "select"
+            ],
+            "time": "2015-07-31 20:46:43"
+        },
+        {
+            "name": "jqmodules/jq2much",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jqmodules/jq2much.git",
+                "reference": "dd3443f19e7731e71a872cc1702358c48c864de0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jqmodules/jq2much/zipball/dd3443f19e7731e71a872cc1702358c48c864de0",
+                "reference": "dd3443f19e7731e71a872cc1702358c48c864de0",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/foo": ">=2.0.2",
+                "webmodules/jquery": ">=1.8"
+            },
+            "type": "utility",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Extension api to jQuery",
+            "keywords": [
+                "javascript"
+            ],
+            "time": "2015-08-01 16:58:29"
+        },
+        {
+            "name": "jqmodules/smart_autocomplete",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqmodules/jQuery-Smart-Auto-Complete.git",
+                "reference": "f6f5e29b4a2af0f96b2f5e54e00ec0dde3e4822e"
+            },
+            "require": {
+                "webmodules/jquery": ">=0.0.0"
+            },
+            "type": "tag",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "fancy select box",
+            "keywords": [
+                "jquery"
+            ],
+            "time": "2015-05-12 16:54:12"
+        },
+        {
+            "name": "jqtags/jq-date",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jqtags/jq-date.git",
+                "reference": "8912798b172562ce7d5f086cb54017c3ae05ba9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jqtags/jq-date/zipball/8912798b172562ce7d5f086cb54017c3ae05ba9b",
+                "reference": "8912798b172562ce7d5f086cb54017c3ae05ba9b",
+                "shasum": ""
+            },
+            "require": {
+                "jqgeeks/jqtag": ">=0.0.1",
+                "jqmodules/jq2much": ">=0.0.0",
+                "webmodules/moment": ">=2.10.4",
+                "webmodules/pikaday": ">=1.3.3"
+            },
+            "type": "tag",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "advanced ajax form tag",
+            "keywords": [
+                "pitana",
+                "polymer",
+                "x-tag"
+            ],
+            "time": "2015-06-15 10:13:08"
+        },
+        {
+            "name": "jqtags/jq-repeat",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqtags/jq-repeat.git",
+                "reference": "47adb2cedd495984741fd982561734d6178c55fb"
+            },
+            "require": {
+                "jqgeeks/jqtag": ">=0.0.1",
+                "jqmodules/jq2much": ">=0.0.0"
+            },
+            "type": "tag",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "fancy bootstrap tab",
+            "keywords": [
+                "pitana",
+                "polymer",
+                "x-tag"
+            ],
+            "time": "2015-06-10 19:33:00"
+        },
+        {
+            "name": "jqtags/jq-select",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jqtags/jq-select.git",
+                "reference": "193c4b0db113ec1ad77a996db07e98e82fcf35b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jqtags/jq-select/zipball/193c4b0db113ec1ad77a996db07e98e82fcf35b2",
+                "reference": "193c4b0db113ec1ad77a996db07e98e82fcf35b2",
+                "shasum": ""
+            },
+            "require": {
+                "jqmodules/bootstrap-select": "1.*",
+                "jqmodules/smart_autocomplete": ">=0.0.0",
+                "webmodules/jqtag": ">=0.0.0"
+            },
+            "type": "tag",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "fancy select box",
+            "keywords": [
+                "pitana",
+                "polymer",
+                "x-tag"
+            ],
+            "time": "2015-07-31 20:57:10"
+        },
+        {
+            "name": "jqtags/jq-slider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jqtags/jq-slider.git",
+                "reference": "d441b8d2cc5870f062734e6e08888ddb12141263"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jqtags/jq-slider/zipball/d441b8d2cc5870f062734e6e08888ddb12141263",
+                "reference": "d441b8d2cc5870f062734e6e08888ddb12141263",
+                "shasum": ""
+            },
+            "require": {
+                "seiyria/bootstrap-slider": ">=0.0.0",
+                "webmodules/jqtag": ">=0.0.0",
+                "webmodules/jqueryui": ">=1.11.42"
+            },
+            "type": "tag",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "fancy bootstrap slider",
+            "keywords": [
+                "pitana",
+                "polymer",
+                "x-tag"
+            ],
+            "time": "2015-07-31 20:34:17"
+        },
+        {
+            "name": "jqtags/jq-switch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqtags/jq-switch.git",
+                "reference": "568213b6114f65919841771ac7b49954eaa62b5e"
+            },
+            "require": {
+                "jqgeeks/jqtag": ">=0.0.0"
+            },
+            "type": "tag",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "fancy switch/checkbox button",
+            "keywords": [
+                "pitana",
+                "polymer",
+                "x-tag"
+            ],
+            "time": "2015-08-01 17:31:50"
+        },
+        {
+            "name": "jqtags/jq-tab",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqtags/jq-tab.git",
+                "reference": "3cfcc9e291dec8c4d107f1023f3b8fb8b135bb2f"
+            },
+            "require": {
+                "jqgeeks/jqtag": ">=0.0.0",
+                "jqmodules/jq2much": ">=0.0.0"
+            },
+            "type": "tag",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "fancy bootstrap tab",
+            "keywords": [
+                "pitana",
+                "polymer",
+                "x-tag"
+            ],
+            "time": "2015-07-02 09:17:58"
+        },
+        {
+            "name": "jqutils/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqutils/cache.git",
+                "reference": "c648c6165b1df033f999960dc74fb0f7df29ee40"
+            },
+            "require": {
+                "jqgeeks/utils": ">=0.0.0"
+            },
+            "type": "utility",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A cache utility to manage localStorage at instance level and caching js files on browser",
+            "homepage": "https://gitlab.com/jqutils/cache",
+            "keywords": [
+                "jqgeeks",
+                "jqutils",
+                "spamjs"
+            ],
+            "time": "2015-07-23 10:45:17"
+        },
+        {
+            "name": "jqutils/jsonutil",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/jqutils/jsonutil.git",
+                "reference": "045b571a3044aa50bf286c7b78b3f7ac10476411"
+            },
+            "require": {
+                "webmodules/dummy-json": "dev-master"
+            },
+            "type": "utility",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "utils.json interceptor to create json from json template",
+            "homepage": "https://gitlab.com/jqgeeks/jsonutil",
+            "keywords": [
+                "jqgeeks",
+                "jqutils"
+            ],
+            "time": "2015-07-22 16:22:49"
+        },
+        {
+            "name": "jsutils/file",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jsutils/file.git",
+                "reference": "ee1f68ab0f03778c504d81a66a275e71a2ca9f82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jsutils/file/zipball/ee1f68ab0f03778c504d81a66a275e71a2ca9f82",
+                "reference": "ee1f68ab0f03778c504d81a66a275e71a2ca9f82",
+                "shasum": ""
+            },
+            "require": {
+                "jsutils/json": ">=0.0.0",
+                "jsutils/tmpl": ">=0.0.0",
+                "webmodules/jquery": ">=2.1.5"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Javascript File Utility",
+            "keywords": [
+                "file",
+                "module"
+            ],
+            "time": "2015-08-02 15:33:12"
+        },
+        {
+            "name": "jsutils/json",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jsutils/json.git",
+                "reference": "d70e1e6f33f514599bcd91ddc252cad6875e3b7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jsutils/json/zipball/d70e1e6f33f514599bcd91ddc252cad6875e3b7d",
+                "reference": "d70e1e6f33f514599bcd91ddc252cad6875e3b7d",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/foo": ">=0.2.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Javascript JSON Utility",
+            "keywords": [
+                "module",
+                "polyfills"
+            ],
+            "time": "2015-07-13 00:22:12"
+        },
+        {
+            "name": "jsutils/tmpl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jsutils/tmpl.git",
+                "reference": "2455946145c95c45b543308c1a92c9ce8b9d842d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jsutils/tmpl/zipball/2455946145c95c45b543308c1a92c9ce8b9d842d",
+                "reference": "2455946145c95c45b543308c1a92c9ce8b9d842d",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/foo": ">=0.2.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Javascript Templating engine taken from underscore",
+            "keywords": [
+                "module",
+                "polyfills"
+            ],
+            "time": "2015-07-13 00:23:35"
+        },
+        {
+            "name": "pitana/pitana.js",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jqgeeks/pitana.js.git",
+                "reference": "024c586dbe98427036a183b9a82fd4eae926f7ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jqgeeks/pitana.js/zipball/024c586dbe98427036a183b9a82fd4eae926f7ee",
+                "reference": "024c586dbe98427036a183b9a82fd4eae926f7ee",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/webcomponentsjs": ">=0.5.2"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "pitana.js, framework for developing large scale modular JavaScript applications using Custom Elements",
+            "keywords": [
+                "framework",
+                "scalable",
+                "webcomponents"
+            ],
+            "time": "2015-07-27 07:38:17"
+        },
+        {
+            "name": "seiyria/bootstrap-slider",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jqmodules/bootstrap-slider.git",
+                "reference": "cdab7e7b47469020e9a776e5d54b0e510f745b09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jqmodules/bootstrap-slider/zipball/cdab7e7b47469020e9a776e5d54b0e510f745b09",
+                "reference": "cdab7e7b47469020e9a776e5d54b0e510f745b09",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Kemp",
+                    "email": "kyle@seiyria.com",
+                    "homepage": "http://seiyria.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Lucas Zardo",
+                    "email": "lucas@deliverymuch.com.br",
+                    "homepage": "https://deliverymuch.com.br",
+                    "role": "Packagist Editor"
+                },
+                {
+                    "name": "Rohit Kalkur",
+                    "email": "rohit.kalkur@gmail.com",
+                    "homepage": "http://www.rovolutionary.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A less buggy fork of the original bootstrap slider found on http://www.eyecon.ro/ by Stefan Petre. It was forked so we could update the slider since the original wasn't under version control.",
+            "homepage": "https://github.com/seiyria/bootstrap-slider",
+            "keywords": [
+                "bootstrap",
+                "css",
+                "javascript",
+                "slider"
+            ],
+            "time": "2015-06-20 05:46:33"
+        },
+        {
+            "name": "spamjs/bootconfig",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spamjs/bootconfig.git",
+                "reference": "eefa08d677a49903f6a5ff7eec6294da355baa33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spamjs/bootconfig/zipball/eefa08d677a49903f6a5ff7eec6294da355baa33",
+                "reference": "eefa08d677a49903f6a5ff7eec6294da355baa33",
+                "shasum": ""
+            },
+            "require": {
+                "spamjs/view": ">=0.0.4",
+                "webmodules/bootloader": ">=0.0.6",
+                "webmodules/jqrouter": ">=1.0.5"
+            },
+            "type": "spamjs",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lalit Tanwar",
+                    "email": "lalit.tanwar07@gmail.com",
+                    "homepage": "http://lalittanwar.com"
+                }
+            ],
+            "description": "Module loader configure",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-08-02 13:34:00"
+        },
+        {
+            "name": "spamjs/module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/spamjs/module.git",
+                "reference": "51622ec8b899d994d5d47c4285874f8940400846"
+            },
+            "require": {
+                "jqgeeks/utils": ">=1.2.6",
+                "pitana/pitana.js": "dev-master",
+                "webmodules/rivets": ">=0.7.1"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "An MVVM framework for single-page-application",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-07-20 14:12:58"
+        },
+        {
+            "name": "spamjs/view",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spamjs/view.git",
+                "reference": "eedbc6933c00930c000cfaa0e8fd041c194d4e47"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spamjs/view/zipball/eedbc6933c00930c000cfaa0e8fd041c194d4e47",
+                "reference": "eedbc6933c00930c000cfaa0e8fd041c194d4e47",
+                "shasum": ""
+            },
+            "require": {
+                "jsutils/file": ">=0.0.4",
+                "pitana/pitana.js": ">=1.0.64",
+                "webmodules/bootloader": ">=0.0.6",
+                "webmodules/rivets": ">=0.8.2"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Javascript Single page application views",
+            "keywords": [
+                "file",
+                "module"
+            ],
+            "time": "2015-08-02 15:40:24"
+        },
+        {
+            "name": "webmodules/bootloader",
+            "version": "0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/bootloader.git",
+                "reference": "61975096b9afa98f9094dd563ac7bb629d25f407"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/bootloader/zipball/61975096b9afa98f9094dd563ac7bb629d25f407",
+                "reference": "61975096b9afa98f9094dd563ac7bb629d25f407",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/foo": "2.0.2",
+                "webmodules/headjs": ">=1.0.3"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lalit Tanwar",
+                    "email": "lalit.tanwar07@gmail.com",
+                    "homepage": "http://lalittanwar.com"
+                }
+            ],
+            "description": "Module loader",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-08-02 12:07:31"
+        },
+        {
+            "name": "webmodules/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/bootstrap.git",
+                "reference": "5aa8ac5a7d3571ec77d0d1ce4c02de69958c3cbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/bootstrap/zipball/5aa8ac5a7d3571ec77d0d1ce4c02de69958c3cbb",
+                "reference": "5aa8ac5a7d3571ec77d0d1ce4c02de69958c3cbb",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/jquery": ">=2.1.2"
+            },
+            "suggest": {
+                "fortawesome/font-awesome": "4.1.0 - Allows more advanced features",
+                "kartik-v/bootstrap-star-rating": "dev-master - Allows more advanced features"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simply Bootstrap Fork with module.json",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-08-01 15:59:39"
+        },
+        {
+            "name": "webmodules/dummy-json",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/webmodules/dummy-json.git",
+                "reference": "5084dd4b7fff9e1e164d13539216df4a4eb5daa0"
+            },
+            "require": {
+                "webmodules/handlebars.js": ">=3.0.1"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Dummy JSON generator and templating",
+            "homepage": "https://github.com/webmodule/dummy-json",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-05-08 14:10:37"
+        },
+        {
+            "name": "webmodules/foo",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/foo.git",
+                "reference": "0f4acb55292a92f877a5b1affe5627ab8d5c0f07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/foo/zipball/0f4acb55292a92f877a5b1affe5627ab8d5c0f07",
+                "reference": "0f4acb55292a92f877a5b1affe5627ab8d5c0f07",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Module loader interface and polyfills",
+            "keywords": [
+                "module",
+                "polyfills"
+            ],
+            "time": "2015-07-25 19:54:37"
+        },
+        {
+            "name": "webmodules/handlebars.js",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/webmodules/handlebars.js.git",
+                "reference": "ffe5ec4feef477bbe0588b1967844a93e0a0e01c"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Wanstrath",
+                    "homepage": "http://chriswanstrath.com"
+                }
+            ],
+            "description": "Handlebars.js and Mustache are both logicless templating languages that keep the view and the code separated like we all know they should be.",
+            "homepage": "http://handlebarsjs.com",
+            "keywords": [
+                "handlebars",
+                "html",
+                "mustache"
+            ],
+            "time": "2015-05-08 14:19:45"
+        },
+        {
+            "name": "webmodules/headjs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/headjs.git",
+                "reference": "461174f2db88e74bbb6560d0590a390d06e4e726"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/headjs/zipball/461174f2db88e74bbb6560d0590a390d06e4e726",
+                "reference": "461174f2db88e74bbb6560d0590a390d06e4e726",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tero Piirainen"
+                },
+                {
+                    "name": "Robert Hoffmann"
+                }
+            ],
+            "description": "HeadJS: Responsive Design, Feature Detections & Asset Loading. The only script in your <HEAD>",
+            "time": "2015-07-09 14:00:05"
+        },
+        {
+            "name": "webmodules/jqbus",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/jqbus.git",
+                "reference": "a8ff86d04fa5b867ad2393890e49a4e88d763423"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/jqbus/zipball/a8ff86d04fa5b867ad2393890e49a4e88d763423",
+                "reference": "a8ff86d04fa5b867ad2393890e49a4e88d763423",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/foo": ">=2.0.2",
+                "webmodules/jquery": ">=1.8"
+            },
+            "type": "utility",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "JavaSript based message queue",
+            "keywords": [
+                "controller",
+                "javascript",
+                "router"
+            ],
+            "time": "2015-07-28 20:10:31"
+        },
+        {
+            "name": "webmodules/jqrouter",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/jqrouter.git",
+                "reference": "ad792749dd62948597d56a74d1b66a309b473008"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/jqrouter/zipball/ad792749dd62948597d56a74d1b66a309b473008",
+                "reference": "ad792749dd62948597d56a74d1b66a309b473008",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/foo": ">=2.0.2",
+                "webmodules/jquery": ">=1.8"
+            },
+            "type": "utility",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple UI URL Router",
+            "keywords": [
+                "controller",
+                "javascript",
+                "router"
+            ],
+            "time": "2015-07-29 20:01:35"
+        },
+        {
+            "name": "webmodules/jqtag",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/jqtag.git",
+                "reference": "c2ee9b9ac87599d92280af5a188793f6dfd4ed75"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/jqtag/zipball/c2ee9b9ac87599d92280af5a188793f6dfd4ed75",
+                "reference": "c2ee9b9ac87599d92280af5a188793f6dfd4ed75",
+                "shasum": ""
+            },
+            "require": {
+                "pitana/pitana.js": ">=1.0.62",
+                "webmodules/foo": ">=2.0.2",
+                "webmodules/jquery": ">=1.8",
+                "webmodules/webcomponentsjs": ">=0.5.3"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A tag library based on pitana and jquery, to comply with foo ",
+            "keywords": [
+                "polymers",
+                "x-tags"
+            ],
+            "time": "2015-07-30 12:50:13"
+        },
+        {
+            "name": "webmodules/jquery",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/jquery.git",
+                "reference": "b1c63b167535f7cb75781285aeefae61d653a692"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/jquery/zipball/b1c63b167535f7cb75781285aeefae61d653a692",
+                "reference": "b1c63b167535f7cb75781285aeefae61d653a692",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery-migrate.js",
+                        "jquery-migrate.min.js"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Resig",
+                    "email": "jeresig@gmail.com"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "time": "2015-07-21 18:13:27"
+        },
+        {
+            "name": "webmodules/jqueryui",
+            "version": "1.11.42",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/jqueryui.git",
+                "reference": "ab145cf0ed147cb99e8cd5013fe1bebd02ed5912"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/jqueryui/zipball/ab145cf0ed147cb99e8cd5013fe1bebd02ed5912",
+                "reference": "ab145cf0ed147cb99e8cd5013fe1bebd02ed5912",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/jquery": ">=1.6"
+            },
+            "type": "library",
+            "extra": {
+                "component": {
+                    "name": "jquery-ui",
+                    "scripts": [
+                        "jquery-ui.js"
+                    ],
+                    "files": [
+                        "ui/**",
+                        "themes/**",
+                        "jquery-ui.min.js"
+                    ],
+                    "shim": {
+                        "deps": [
+                            "jquery"
+                        ],
+                        "exports": "jQuery"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jQuery UI Team",
+                    "homepage": "http://jqueryui.com/about"
+                },
+                {
+                    "name": "Joern Zaefferer",
+                    "email": "joern.zaefferer@gmail.com",
+                    "homepage": "http://bassistance.de"
+                },
+                {
+                    "name": "Scott Gonzalez",
+                    "email": "scott.gonzalez@gmail.com",
+                    "homepage": "http://scottgonzalez.com"
+                },
+                {
+                    "name": "Kris Borchers",
+                    "email": "kris.borchers@gmail.com",
+                    "homepage": "http://krisborchers.com"
+                },
+                {
+                    "name": "Mike Sherov",
+                    "email": "mike.sherov@gmail.com",
+                    "homepage": "http://mike.sherov.com"
+                },
+                {
+                    "name": "TJ VanToll",
+                    "email": "tj.vantoll@gmail.com",
+                    "homepage": "http://tjvantoll.com"
+                },
+                {
+                    "name": "Corey Frang",
+                    "email": "gnarf37@gmail.com",
+                    "homepage": "http://gnarf.net"
+                },
+                {
+                    "name": "Felix Nagel",
+                    "email": "info@felixnagel.com",
+                    "homepage": "http://www.felixnagel.com"
+                }
+            ],
+            "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice.",
+            "time": "2015-07-22 19:40:47"
+        },
+        {
+            "name": "webmodules/moment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/moment.git",
+                "reference": "b4657cfcbaf578c81f682a3c91db58876398c9a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/moment/zipball/b4657cfcbaf578c81f682a3c91db58876398c9a1",
+                "reference": "b4657cfcbaf578c81f682a3c91db58876398c9a1",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "moment.js"
+                    ],
+                    "files": [
+                        "min/*.js",
+                        "locale/*.js"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Wood",
+                    "email": "washwithcare@gmail.com"
+                }
+            ],
+            "description": "Parse, validate, manipulate, and display dates in JavaScript.",
+            "homepage": "http://github.com/moment/moment/",
+            "keywords": [
+                "date",
+                "ender",
+                "format",
+                "i18n",
+                "l10n",
+                "moment",
+                "parse",
+                "time",
+                "validate"
+            ],
+            "time": "2015-06-12 09:34:56"
+        },
+        {
+            "name": "webmodules/pikaday",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/pikaday.git",
+                "reference": "57f4b8eef5b8239df91c9645410213542744038c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/pikaday/zipball/57f4b8eef5b8239df91c9645410213542744038c",
+                "reference": "57f4b8eef5b8239df91c9645410213542744038c",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/moment": ">=2.10.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD",
+                "MIT"
+            ],
+            "description": "A refreshing JavaScript Datepicker — lightweight, no dependencies, modular CSS",
+            "homepage": "http://dbushell.github.io/Pikaday/",
+            "keywords": [
+                "calendar",
+                "date",
+                "datepicker"
+            ],
+            "time": "2015-06-12 08:39:37"
+        },
+        {
+            "name": "webmodules/rivets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/rivets.git",
+                "reference": "17fc5082ecf4bde7695138acbdfabb6156695132"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/rivets/zipball/17fc5082ecf4bde7695138acbdfabb6156695132",
+                "reference": "17fc5082ecf4bde7695138acbdfabb6156695132",
+                "shasum": ""
+            },
+            "require": {
+                "webmodules/sightglass": "0.2.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Rivets.js is a lightweight data binding and templating system that facilitates building data-driven views.",
+            "homepage": "http://rivetsjs.com",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-07-31 08:31:29"
+        },
+        {
+            "name": "webmodules/sightglass",
+            "version": "0.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/sightglass.git",
+                "reference": "ffdff4e46ffc96f8309f4116b7b39c5b20f01455"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/sightglass/zipball/ffdff4e46ffc96f8309f4116b7b39c5b20f01455",
+                "reference": "ffdff4e46ffc96f8309f4116b7b39c5b20f01455",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Observable keypath engine.",
+            "keywords": [
+                "engine",
+                "keypath",
+                "observable",
+                "observe"
+            ],
+            "time": "2015-07-31 08:16:00"
+        },
+        {
+            "name": "webmodules/underscore",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/underscore.git",
+                "reference": "5b39177a7c6b076a2a5bbdf381a64d59de232aa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/underscore/zipball/5b39177a7c6b076a2a5bbdf381a64d59de232aa7",
+                "reference": "5b39177a7c6b076a2a5bbdf381a64d59de232aa7",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "JavaScript's functional programming helper library.",
+            "keywords": [
+                "browser",
+                "client",
+                "functional",
+                "server",
+                "util"
+            ],
+            "time": "2015-07-21 18:01:32"
+        },
+        {
+            "name": "webmodules/webcomponentsjs",
+            "version": "0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmodule/webcomponentsjs.git",
+                "reference": "09512cd7ab85a76fccd6eec8bd1b4fe86445287c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmodule/webcomponentsjs/zipball/09512cd7ab85a76fccd6eec8bd1b4fe86445287c",
+                "reference": "09512cd7ab85a76fccd6eec8bd1b4fe86445287c",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A suite of polyfills supporting the HTML Web Components specs: http://webcomponents.org/polyfills/",
+            "keywords": [
+                "api",
+                "rudra"
+            ],
+            "time": "2015-07-29 20:41:20"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "webmodules/bootstrap": 20,
+        "jqgeeks/utils": 20,
+        "jqgeeks/tunnel": 20,
+        "spamjs/module": 20,
+        "spamjs/bootconfig": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

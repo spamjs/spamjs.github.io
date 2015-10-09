@@ -1,0 +1,7 @@
+{
+  "name": "api.spamjs.org",
+  "api.spamjs.org/app": {
+    "js": ["main/spamjs.app.js"],
+    "on": ["webmodules/foo/log", "webmodules/bootloader", "spamjs/bootconfig"]
+  }
+}
