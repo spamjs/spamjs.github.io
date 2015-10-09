@@ -1,1 +1,1 @@
-web: ./node_modules/grunt/.bin/grunt my-grunt-command ; node app.js
+web: ./node_modules/grunt/.bin/grunt start-cdn-server;
