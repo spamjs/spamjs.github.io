@@ -27,9 +27,14 @@
     "underscore": "1.6.0"
   },
   "devDependencies": {
-    "clean-css": "^3.4.4",
-    "smartcomments": "0.3.2"
+    "clean-css": "^3.4.4"
   },
+
+  "scripts": {
+    "install": "bower update",
+    "postinstall": "grunt start-cdn-server"
+  },
+
   "jsbeautifier": {
     "html": {
       "brace_style": "collapse",
