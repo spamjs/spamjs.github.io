@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SpamJS</title>
+<script type="text/javascript">
+	(function(foo) {
+		foo.BrowserDetect = {
+			isBelowIE9 : false
+		};
+	})(this);
+</script>
+<!--[if lte IE 9]>
+<script type="text/javascript">
+	(function(foo) {
+		foo.BrowserDetect.isBelowIE9 = true;
+	})(this);
+</script>
+<![endif]-->
+	<script>
+//			window.onerror = null;
+//
+//		// Example 2:
+//
+//		var gOldOnError = window.onerror;
+//		// Override previous handler.
+//		window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
+//			console.error("onerror",errorMsg, url, lineNumber);
+//		  if (gOldOnError) {
+//		    // Call previous handler.
+//		    return gOldOnError(errorMsg, url, lineNumber);
+//		  }
+//
+//		  // Just let default handler run.
+//		  return false;
+//		};
+	</script>
+</head>
+<body>
+	<script src="/dist/bootloader_bundled/webmodules.bootloader.js">
+		bootloader({
+			debug : false,
+			version : "xxx",
+			//baseUrl : "",
+			appContext : '',
+			//resourceDir : null,
+			//resourceUrl : "",
+			resourceJson : "dist/resource.json",
+			indexBundle : "spamjs/app",
+			debugBundles : []
+		});
+	</script>
+	
+</body>
+</html>
