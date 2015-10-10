@@ -25,14 +25,15 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jsbeautifier": "0.2.7",
     "grunt-webfont": "^0.5.4",
-    "underscore": "1.6.0"
+    "underscore": "1.6.0",
+    "harp": "*"
   },
   "devDependencies": {
     "clean-css": "^3.4.4"
   },
 
   "scripts": {
-    "install": "bower update && ./node_modules/grunt-cli/bin/grunt build && ./node_modules/grunt-cli/bin/grunt start-cdn-server"
+    "install": "bower update && ./node_modules/grunt-cli/bin/grunt build"
   },
 
   "jsbeautifier": {
