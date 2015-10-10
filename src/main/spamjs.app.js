@@ -8,8 +8,8 @@ define({
 
   return {
     routerEvents: {
-      "/boot/*": "openDevSection",
-      "/boot/{mod}/*": "openDevSection"
+      //"/boot/*": "openDevSection",
+      //"/boot/{mod}/*": "openDevSection"
     },
     events: {
       "click a[jqrouter]:not([target])": "softRedirect"
@@ -19,14 +19,17 @@ define({
       var self = this;
       jqrouter.start();
 
+      this.router = jqrouter.bind(this);
+
       this.$$.loadTemplate(this.path("spamjs.app.html")).done(function(){
         self.openDevSection();
-        jqrouter.otherwise("/boot/modules");
+        self.router.otherwise("/boot/modules");
         jQuery("body").removeClass("loading");
         jQuery("body").append('<div class="tryConnect" hidden><a href=".">Refresh</a></div>');
       })
     },
-    openDevSection: function() {
+    openDevSection: function(e,target,data) {
+      console.error("openDevSection",e,target,data)
       var self = this;
       module("spamjs.bootconfig", function(myModule) {
         self.add(myModule.instance({
