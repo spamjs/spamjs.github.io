@@ -19,7 +19,7 @@ define({
       var self = this;
       jqrouter.start();
       this.openDevSection();
-      jqrouter.otherwise("/boot/")
+      jqrouter.otherwise("/boot/modules")
       jQuery("body").removeClass("loading");
       jQuery("body").append('<div class="tryConnect" hidden><a href=".">Refresh</a></div>');
     },
