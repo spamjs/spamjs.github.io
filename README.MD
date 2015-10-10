@@ -15,7 +15,8 @@
 * For starting server : grunt start-cdn-server
 
 ##Submit Package
-Use either or these
-1) Fork and make pull Request 
-2) Raise issue with package name at 
-https://github.com/spamjs/spamjs.github.io/issues
+Use either of these
+
+* Fork and make pull Request 
+* Raise issue with package name at 
+    https://github.com/spamjs/spamjs.github.io/issues
