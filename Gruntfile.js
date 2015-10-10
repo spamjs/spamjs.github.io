@@ -61,7 +61,7 @@ module.exports = function (grunt) {
     },
     bootloader: {
       options: {
-        indexBundles: ["webmodules/bootloader", "annam/app"],// ["project/app"],
+        indexBundles: ["webmodules/bootloader", "spamjs/app"],// ["project/app"],
         src: "./",
         dest: "dist",
         resourcesFile: "resource.json",
