@@ -31,7 +31,7 @@
   },
 
   "scripts": {
-    "install": "bower update"
+    "install": "bower update && grunt build && grunt start-cdn-server"
   },
 
   "jsbeautifier": {
