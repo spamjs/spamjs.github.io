@@ -1,18 +1,21 @@
-/************************
-  Installation steps
-************************/
-1. Clone project
-2. instal node module : npm install
-3. npm update
-4. install bower dependencies : bower install
-5. grunt bundlify
-6. grunt start-cdn-server
+## Installation steps
 
-/************************
-  devlopment steps
-************************/
+* Clone project
+* instal node module : npm install
+* npm update
+* install bower dependencies : bower install
+* grunt bundlify
+* grunt start-cdn-server
 
-1. For generating sprite image : compass compile
-2. For watching all changes from scss to css : compass watch
-3. Each time any change in json file : grunt bundlify
-4. For starting server : grunt start-cdn-server
+## devlopment steps
+
+* For generating sprite image : compass compile
+* For watching all changes from scss to css : compass watch
+* Each time any change in json file : grunt bundlify
+* For starting server : grunt start-cdn-server
+
+##Submit Package
+Use either or these
+1) Fork and make pull Request 
+2) Raise issue with package name at 
+https://github.com/spamjs/spamjs.github.io/issues
