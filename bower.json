@@ -22,6 +22,7 @@
     "jqtags-jqx-tags": "latest",
     "jqtags-jq-select2": "latest",
     "jqtags-jqx-select": "latest",
+    "jqtags-jq-typeahead": "latest",
     "spamjs-inline": "latest",
     "webmodules-underscore": "~1.8.31",
     "this-is-it": "~1.0.0",
