@@ -1,11 +1,12 @@
 var static = require('node-static');
 var file = new static.Server({
-  cache: 7200,
+  cache: 86400,
   serverInfo: "myserver",
   indexFile: "index.htm",
   gzip: true,
   "X-test" : "ok",
   headers : {
+    "Cache-Control" : "max-age=86400, public",
     'Connection' : 'keep-alive',
     'Access-Control-Allow-Origin' : "*",
     'Access-Control-Allow-Methods' : 'GET, POST, PUT, DELETE, OPTIONS',
