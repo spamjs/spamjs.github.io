@@ -12,7 +12,11 @@ define({
       //"/boot/{mod}/*": "openDevSection"
     },
     events: {
-      "click a[jqrouter]:not([target])": "softRedirect"
+      "click a[jqrouter]:not([target])": "softRedirect",
+//      "click a[jqr-click]": "routerNavigation",
+//      "change [jqr-change-param]": "routerQueryParamChange",
+//      "click a[jqr-click-param]": "routerQueryParamChange",
+//      "click a[jqr-push-params]": "routerQueryParamUpdate"
     },
     globalEvents: {},
     _init_: function() {
@@ -44,6 +48,35 @@ define({
     },
     _ready_: function() {
       this.instance().addTo(jQuery("body"));
+    },
+    routerNavigation: function (e, target) {
+      var link = target.getAttribute("href");
+      if (link) {
+        jqrouter.go(link);
+      }
+      return preventPropagation(e);
+    },
+    routerQueryParamChange: function (e, target) {
+      var param = target.getAttribute("jqrouter-param");
+      if (param) {
+        jqrouter.setQueryParam(param, target.value || target.getAttribute("value"));
+      }
+      return preventPropagation(e);
+    },
+    routerQueryParamUpdate: function (e, target) {
+      var param = target.getAttribute("jqrouter-params");
+      if (param) {
+        var selectedVal = target.value || target.getAttribute("value");
+        var selected = this.router.getQueryParam(param) || [];
+        var pos = selected.indexOf(selectedVal);
+      }
+      if (pos == -1) {
+        selected.push(selectedVal);
+      } else {
+        selected.splice(pos, 1);
+      }
+      this.router.setQueryParam(param, selected);
+      return preventPropagation(e);
     }
   };
 
