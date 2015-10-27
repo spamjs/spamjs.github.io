@@ -2,6 +2,7 @@
   "name": "samples",
   "samples/multiselect": {
     "js": ["sample.multiselect.js","sample.multiselect.test.js"],
+    "html": ["multiselect.html"],
     "on": ["jqtags/jq-select", "jqtags/jq-select2","spamjs/view"]
   }
 }

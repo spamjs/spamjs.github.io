@@ -29,7 +29,7 @@
     "jqtags-jq-time": "latest"
   },
   "resolutions": {
-    "jsutils-file": "~0.0.8",
+    "jsutils-file": "~0.1.0",
     "webmodules-jqtag": "0.0.6",
     "jqmodules-x-editable" : "1.5.2"
 }

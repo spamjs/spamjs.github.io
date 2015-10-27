@@ -2,6 +2,7 @@
   "name": "spamjs",
   "spamjs/app": {
     "js": ["main/spamjs.app.js"],
-    "on": ["webmodules/foo/log", "webmodules/bootloader", "spamjs/bootconfig"]
+    "html": ["main/spamjs.app.html"],
+    "on": ["webmodules/foo/log", "webmodules/bootloader", "spamjs/bootconfig","samples/multiselect"]
   }
 }
