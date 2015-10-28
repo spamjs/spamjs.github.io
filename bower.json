@@ -31,6 +31,6 @@
   "resolutions": {
     "jsutils-file": "~0.1.1",
     "webmodules-jqtag": "0.0.6",
-    "jqmodules-x-editable" : "1.5.2"
-}
+    "jqmodules-x-editable": "1.5.2"
+  }
 }
