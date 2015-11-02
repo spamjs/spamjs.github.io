@@ -12,8 +12,8 @@ define({
       "change div jq-select": "searchNearBy"
     },
     searchAll : function(e,target,data){
-     // console.error("_inbox_",e,target,data)
-      fileUtil.getJSON(test.path("india.json")).done(function(resp){
+      // console.error("_inbox_",e,target,data)
+      fileUtil.getJSON(widget.path("india.json")).done(function(resp){
         console.error(e.detail)
         e.detail.callback(resp.filter(function(option){
           return option.text.toLowerCase().indexOf(e.detail.term.toLowerCase())!=-1
@@ -29,13 +29,14 @@ define({
         text : e.detail.text
       }]);
       $selct1.val(e.detail.value);
-      fileUtil.getJSON(test.path(e.detail.value+".json")).done(function(resp){
-        console.error("resp",e,resp);
+      fileUtil.getJSON(widget.path(e.detail.value+".json")).done(function(resp){
         $selct1[0].setOptions(resp);
         $selct1.val(e.detail.value);
         $selct2.attr("hidden","hidden");
         $selct1.removeAttr("hidden");
       });
+      $selct2.attr("hidden","hidden");
+      $selct1.removeAttr("hidden");
     },
     searchNearBy : function(e,target,data){
       var $selct1 = jQuery(target);
@@ -44,6 +45,8 @@ define({
         var $selct2 = jQuery(e.target).closest("[jq-adapter=multiselectbox]").find("jq-select2");
         $selct2.removeAttr("hidden");
         $selct1.attr("hidden","hidden");
+        console.error("searchNearBy");
+        $selct2.val("");
       }
     }
   });
