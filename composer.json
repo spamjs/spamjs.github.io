@@ -1,36 +1,36 @@
 {
-	"config": {
-		"vendor-dir": "dist/lib"
-	},
-	"minimum-stability": "dev",
+  "config": {
+    "vendor-dir": "dist/lib"
+  },
+  "minimum-stability": "dev",
 
-	"require": {
-		"webmodules/bootstrap": "dev-master",
-		"jqgeeks/utils": "dev-master",
-		"jqgeeks/tunnel": "dev-master",
-		"spamjs/module": "dev-master",
-		"jqtags/jq-select": "dev-master",
-		"jqtags/jq-switch": "dev-master",
+  "require": {
+    "webmodules/bootstrap": "dev-master",
+    "jqgeeks/utils": "dev-master",
+    "jqgeeks/tunnel": "dev-master",
+    "spamjs/module": "dev-master",
+    "jqtags/jq-select": "dev-master",
+    "jqtags/jq-switch": "dev-master",
 
-		"webmodules/foo": ">=2.0.2",
-		"webmodules/bootloader": "0.0.6",
-		"webmodules/jqrouter": "1.0.5",
-		"webmodules/jqbus": "0.0.1",
-		"webmodules/underscore": ">=0.0.0",
-		"webmodules/jquery": ">=0.0.0",
-		"webmodules/jqueryui": "1.11.42",
-		"webmodules/webcomponentsjs": "0.5.3",
-		"jqutils/jsonutil": ">=0.0.1",
-		"jqutils/cache": ">=0.0.1",
-		"jqgeeks/jqtag": ">=0.0.1",
-		"jqtags/jq-select": ">=0.0.1",
-		"jqtags/jq-tab": ">=0.0.1",
-		"jqtags/jq-repeat": ">=0.0.1",
-		"jqtags/jq-switch": ">=0.0.1",
-		"jqtags/jq-date": ">=0.0.0",
-		"jqtags/jq-slider": ">=0.0.0",
-		"spamjs/view": ">=0.0.4",
-		"spamjs/bootconfig": "dev-master"
-	}
+    "webmodules/foo": ">=2.0.2",
+    "webmodules/bootloader": "0.0.6",
+    "webmodules/jqrouter": "1.0.5",
+    "webmodules/jqbus": "0.0.1",
+    "webmodules/underscore": ">=0.0.0",
+    "webmodules/jquery": ">=0.0.0",
+    "webmodules/jqueryui": "1.11.42",
+    "webmodules/webcomponentsjs": "0.5.3",
+    "jqutils/jsonutil": ">=0.0.1",
+    "jqutils/cache": ">=0.0.1",
+    "jqgeeks/jqtag": ">=0.0.1",
+    "jqtags/jq-select": ">=0.0.1",
+    "jqtags/jq-tab": ">=0.0.1",
+    "jqtags/jq-repeat": ">=0.0.1",
+    "jqtags/jq-switch": ">=0.0.1",
+    "jqtags/jq-date": ">=0.0.0",
+    "jqtags/jq-slider": ">=0.0.0",
+    "spamjs/view": ">=0.0.4",
+    "spamjs/bootconfig": "dev-master"
+  }
 }
 
