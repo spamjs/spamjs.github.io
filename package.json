@@ -32,7 +32,7 @@
     "clean-css": "^3.4.4"
   },
 
-  "scripts": {
+  "scripts-x": {
     "install": "bower update && ./node_modules/grunt-cli/bin/grunt build"
   },
 
